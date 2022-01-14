@@ -54,6 +54,7 @@ struct ContentView: View {
                 
                 Section {
                     Text(totalPerPerson, format: .currency(code: Locale.current.currencyCode ?? "USD"))
+                        .foregroundColor(tipPercentage == .zero ? .red : .black)
                 } header: {
                     Text("Amount per person")
                 }
