@@ -43,12 +43,18 @@ struct ContentView: View {
             } message: {
                 Text(errorMessage)
             }
+            .toolbar {
+                Button("Restart game", action: startGame)
+            }
         }
     }
     
     func addNewWord() {
         let answer = newWord.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)
-        guard answer.count > 0 else { return }
+        guard answer.count > 2, answer != rootWord else {
+            wordError(title: "Word not valid", message: "")
+            return
+        }
         
         guard isOriginal(word: answer) else {
             wordError(title: "Word used already", message: "Be more original!")
@@ -72,6 +78,7 @@ struct ContentView: View {
     }
     
     func startGame() {
+        usedWords = []
         if let startWordsURL = Bundle.main.url(forResource: "start", withExtension: "txt"),
             let startWords = try? String(contentsOf: startWordsURL) {
             let allWords = startWords.components(separatedBy: "\n")
