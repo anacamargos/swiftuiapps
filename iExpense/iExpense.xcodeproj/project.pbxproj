@@ -13,6 +13,7 @@
 		BF775C0D27BBE4150068BDCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF775C0C27BBE4150068BDCD /* Preview Assets.xcassets */; };
 		BF775C1427BBE49A0068BDCD /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF775C1327BBE49A0068BDCD /* ExpenseItem.swift */; };
 		BF775C1627BBE4ED0068BDCD /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF775C1527BBE4ED0068BDCD /* Expenses.swift */; };
+		BF9775DC27BBEC700006D57A /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9775DB27BBEC700006D57A /* AddView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		BF775C0C27BBE4150068BDCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF775C1327BBE49A0068BDCD /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 		BF775C1527BBE4ED0068BDCD /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		BF9775DB27BBEC700006D57A /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				BF775C0527BBE4120068BDCD /* iExpenseApp.swift */,
 				BF775C0727BBE4120068BDCD /* ContentView.swift */,
+				BF9775DB27BBEC700006D57A /* AddView.swift */,
 				BF775C0927BBE4150068BDCD /* Assets.xcassets */,
 				BF775C0B27BBE4150068BDCD /* Preview Content */,
 				BF775C1327BBE49A0068BDCD /* ExpenseItem.swift */,
@@ -145,6 +148,7 @@
 			files = (
 				BF775C1627BBE4ED0068BDCD /* Expenses.swift in Sources */,
 				BF775C0827BBE4120068BDCD /* ContentView.swift in Sources */,
+				BF9775DC27BBEC700006D57A /* AddView.swift in Sources */,
 				BF775C1427BBE49A0068BDCD /* ExpenseItem.swift in Sources */,
 				BF775C0627BBE4120068BDCD /* iExpenseApp.swift in Sources */,
 			);
