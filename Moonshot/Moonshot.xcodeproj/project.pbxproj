@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BF065EF627C9239600C97C5E /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF065EF527C9239600C97C5E /* MissionView.swift */; };
+		BF065EF827C944C700C97C5E /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF065EF727C944C700C97C5E /* AstronautView.swift */; };
 		BF393C8727C7AC2400786C93 /* MoonshotApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF393C8627C7AC2400786C93 /* MoonshotApp.swift */; };
 		BF393C8927C7AC2400786C93 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF393C8827C7AC2400786C93 /* ContentView.swift */; };
 		BF393C8B27C7AC2700786C93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF393C8A27C7AC2700786C93 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		BF065EF527C9239600C97C5E /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		BF065EF727C944C700C97C5E /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
 		BF393C8327C7AC2400786C93 /* Moonshot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moonshot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF393C8627C7AC2400786C93 /* MoonshotApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotApp.swift; sourceTree = "<group>"; };
 		BF393C8827C7AC2400786C93 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -68,6 +70,7 @@
 				BF393C8627C7AC2400786C93 /* MoonshotApp.swift */,
 				BF393C8827C7AC2400786C93 /* ContentView.swift */,
 				BF065EF527C9239600C97C5E /* MissionView.swift */,
+				BF065EF727C944C700C97C5E /* AstronautView.swift */,
 				BF393C9E27C7CD7A00786C93 /* Color-Theme.swift */,
 				BF393C9827C7AF5900786C93 /* Astronaut.swift */,
 				BF393C9C27C7C48B00786C93 /* Mission.swift */,
@@ -162,6 +165,7 @@
 			files = (
 				BF065EF627C9239600C97C5E /* MissionView.swift in Sources */,
 				BF393C9927C7AF5900786C93 /* Astronaut.swift in Sources */,
+				BF065EF827C944C700C97C5E /* AstronautView.swift in Sources */,
 				BF393C9F27C7CD7A00786C93 /* Color-Theme.swift in Sources */,
 				BF393C8927C7AC2400786C93 /* ContentView.swift in Sources */,
 				BF393C8727C7AC2400786C93 /* MoonshotApp.swift in Sources */,
