@@ -16,6 +16,7 @@
 		BFA054EA2881A5E400F8BCF8 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA054E92881A5E400F8BCF8 /* AddBookView.swift */; };
 		BFA054EC2881C5C900F8BCF8 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA054EB2881C5C800F8BCF8 /* RatingView.swift */; };
 		BFA054EE2881D39F00F8BCF8 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA054ED2881D39F00F8BCF8 /* EmojiRatingView.swift */; };
+		BFA054F028857D1700F8BCF8 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA054EF28857D1600F8BCF8 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		BFA054E92881A5E400F8BCF8 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 		BFA054EB2881C5C800F8BCF8 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		BFA054ED2881D39F00F8BCF8 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		BFA054EF28857D1600F8BCF8 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				BFA054D62881A33C00F8BCF8 /* BookwormApp.swift */,
 				BFA054D82881A33C00F8BCF8 /* ContentView.swift */,
 				BFA054E92881A5E400F8BCF8 /* AddBookView.swift */,
+				BFA054EF28857D1600F8BCF8 /* DetailView.swift */,
 				BFA054EB2881C5C800F8BCF8 /* RatingView.swift */,
 				BFA054ED2881D39F00F8BCF8 /* EmojiRatingView.swift */,
 				BFA054E72881A3D500F8BCF8 /* DataController.swift */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFA054D92881A33C00F8BCF8 /* ContentView.swift in Sources */,
+				BFA054F028857D1700F8BCF8 /* DetailView.swift in Sources */,
 				BFA054E82881A3D500F8BCF8 /* DataController.swift in Sources */,
 				BFA054EE2881D39F00F8BCF8 /* EmojiRatingView.swift in Sources */,
 				BFA054E62881A3BB00F8BCF8 /* Bookworm.xcdatamodeld in Sources */,
